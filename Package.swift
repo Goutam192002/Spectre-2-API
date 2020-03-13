@@ -7,14 +7,20 @@ let package = Package(
         .library(name: "Spectre-2", targets: ["App"]),
     ],
     dependencies: [
-        // 💧 A server-side Swift web framework.
+        // Vapor packages
+        
         .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
+        .package(url: "https://github.com/vapor/fluent-postgresql.git", .upToNextMajor(from: "1.0.0")),
+        .package(url: "https://github.com/vapor/auth.git", .upToNextMajor(from: "2.0.0")),
+        .package(url: "https://github.com/vapor/leaf.git", .upToNextMajor(from: "3.0.0")),
+        .package(url: "https://github.com/vapor-community/stripe-provider.git", from: "2.2.0"),
+        .package(url: "https://github.com/vapor-community/sendgrid-provider.git", from: "3.0.0"),
+        .package(url: "https://github.com/vapor-community/Imperial.git", from: "0.7.1")
 
-        // 🔵 Swift ORM (queries, models, relations, etc) built on SQLite 3.
-        .package(url: "https://github.com/vapor/fluent-sqlite.git", from: "3.0.0")
+
     ],
     targets: [
-        .target(name: "App", dependencies: ["FluentSQLite", "Vapor"]),
+        .target(name: "App", dependencies: ["FluentPostgreSQL", "Vapor", "Authentication", "Leaf", "Stripe", "SendGrid", "Imperial"]),
         .target(name: "Run", dependencies: ["App"]),
         .testTarget(name: "AppTests", dependencies: ["App"])
     ]

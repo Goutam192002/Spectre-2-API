@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/freelance.css">
+
+    <title>Devscorch | #(title)</title>
+</head>
+<body>
+    #embed("base")
+        <div class="container-fluid">
+            <div class="main-container">
+                <div class="row intro-row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="freelance-intro ">
+                            <h1 class="freelance-h1">Code, Design, Hosting and Consulting</h1>
+                            <h4 class="freelance-h4">Interested in a profesisonal and affordable freelancer? We have those to :)</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="development-container">
+                <div class="row development-row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="development-text">
+                            <h2 class="development-h2">Swift development for Apple products</h2>
+                            <p class="development-p">In need of a professional Swift developer who has experience
+                            with all modern Apple frameworks and Apple hardware? At Devscorch we specialise in the Swift programming language.
+                            We use it for iOS, tvOS, MacOS, WatchOS and even API and web development. The reason we use Swift is because
+                            it is type-safe, fast, stable and insanely powerful in day to day use. Dont hesitate to contact us
+                            for a free consult.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card border-0" style="width: 25rem;">
+                            <div class="card-body">
+                                <h5 class="card-h5-blaze">Experiences!</h5>
+                                    <ul class="ul-price"> 
+                                        <li><p class="card-text">UIKit</p></li>
+                                        <li><p class="card-text">SwiftUI</p></li>
+                                        <li><p class="card-text">CoreData</p></li>
+                                        <li><p class="card-text">Firebase</p></li>
+                                        <li><p class="card-text">Realm</p></li>
+                                        <li><p class="card-text">ARKit</p></li>
+                                        <li><p class="card-text">CoreML</p></li>
+                                        <li><p class="card-text">Animations</p></li>
+                                        <li><p class="card-text">App architecture</p></li>
+                                        <li><p class="card-text">Metal</p></li>
+                                        <li><p class="card-text">SpriteKit</p></li>
+                                        <li><p class="card-text">Scenekit</p></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="web-container">
+                <div class="row development-row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card border-0" style="width: 25rem;">
+                            <div class="card-body card-body-2">
+                                <h5 class="card-h5-blaze">Experiences!</h5>
+                                    <ul class="ul-price"> 
+                                        <li><p class="card-text">LEAF</p></li>
+                                        <li><p class="card-text">Vapor</p></li>
+                                        <li><p class="card-text">MySQL</p></li>
+                                        <li><p class="card-text">PostgreSQL</p></li>
+                                        <li><p class="card-text">React</p></li>
+                                        <li><p class="card-text">HTML CSS Javascript</p></li>
+                                        <li><p class="card-text">Animations</p></li>
+                                        <li><p class="card-text">Web app architecture</p></li>
+                                        <li><p class="card-text">Nginx</p></li>
+                                        <li><p class="card-text">Firebase</p></li>
+                                        <li><p class="card-text">Angular 7</p></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="development-text">
+                            <h2 class="development-h2">Website Development for every client</h2>
+                            <p class="development-p">Besides the learning platform i also provide freelance web development. With the power of the 
+                            Swift Framework Vapor i can build powerful and beautiful websites anywhere anytime. With serverside Swift i can provide my clients
+                            with high performance websites which look beautiful and feel lightning fast. If you are interested in other technologies like Firebase or React
+                            or the implementation of a other 3 party framework i also can provide that.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="api-container">
+                <div class="row development-row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="development-text">
+                            <h2 class="development-h2">High performance RESTAPI's</h2>
+                            <p class="development-p">Every app or website these days is powered by a powerfull RESTAPI. It provides your users
+                            with new features, new information and connectivity. With Swift and Vapor i can provide clients and companies with
+                             powerful, high performance and reliable API's for their applications.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card border-0" style="width: 25rem;">
+                            <div class="card-body">
+                                <h5 class="card-h5-blaze">Experiences!</h5>
+                                    <ul class="ul-price"> 
+                                        <li><p class="card-text">Low memory usage</p></li>
+                                        <li><p class="card-text">Low CPU usage</p></li>
+                                        <li><p class="card-text">Vapor</p></li>
+                                        <li><p class="card-text">Swift</p></li>
+                                        <li><p class="card-text">LEAF</p></li>
+                                        <li><p class="card-text">Ubuntu Server</p></li>
+                                        <li><p class="card-text">PostgreSQL</p></li>
+                                        <li><p class="card-text">Web sockets</p></li>
+                                        <li><p class="card-text">Fluent Models</p></li>
+                                        <li><p class="card-text">MySQL</p></li>
+                                        <li><p class="card-text">Multi Threading support</p></li>
+                                        <li><p class="card-text">BCrypt encryption</p></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="explain-container">
+                <div class="row development-row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        
+                        <div class="card border-0" style="width: 25rem;">
+                            <div class="card-body card-body-2">
+                                <h5 class="card-h5-blaze"></h5>
+                                    <ul class="ul-price"> 
+                                        <li><p class="card-text">Clear facturation</p></li>
+                                        <li><p class="card-text">Daily updates </p></li>
+                                        <li><p class="card-text">1 month free support</p></li>
+                                        <li><p class="card-text">3 revisions after delivery</p></li>
+                                        <li><p class="card-text">No hidden costs</p></li>
+                                        <li><p class="card-text">Clear and readable code</p></li>
+                                        <li><p class="card-text">Delivery at deadline</p></li>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <h5 class="card-title card-h5">€42,-</h5>
+                                        <small class="hour">Price is per hour and includes taxes and potential fees.</small>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="development-text">
+                            <h2 class="development-h2">Who am i?</h2>
+                            <p class="development-p">I'm Johan. Owner and Developer of the Devscorch Platform. I have been coding since i was
+                            12 years old. Started with HTML and CSS and worked my way up to Swift. Since 2015-2016 i have
+                            been specializing in everything that has to do with Swift. This includes the development for 
+                            Apple related hardware, server side applications for Ubuntu distributions and frontends. All the experiences above are my experiences
+                            and experiences i can provide to my clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    #embed("footer")
+
+        </div>    
+
+    
+
+
+    <!-- Optional JavaScript -->  
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

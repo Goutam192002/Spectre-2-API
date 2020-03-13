@@ -1,0 +1,92 @@
+/* Base CSS File with all Index CSS */
+
+
+/*Fonts */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+
+
+body {
+    background-color: rgb(7, 8, 26);
+    font-family: 'Ubuntu', Courier;
+}
+
+
+.intro-row-2 {
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 200px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0C0E27;
+
+}
+
+.form-control {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    background-color: #10112E;
+    border: none;
+    border-radius: 20px;
+}
+
+.modal-dialog {
+    margin-top: 300px;
+    text-align:center;
+
+}
+.card {
+    max-width: 700px;
+    border: none;
+}
+
+.card-body  {
+    background-color: #0C0E27;
+}
+
+.card-header-2 {
+    background-color: #0C0E27;
+    border-bottom: 0 none;
+    text-align:center; 
+}
+.form-control {
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    background-color: #10112E;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.post-button {
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 250px;
+    height: 40px;
+    background: linear-gradient(0.25turn,#0D3D8D, #2AD8EC);
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.card-header {
+    color: white;
+}

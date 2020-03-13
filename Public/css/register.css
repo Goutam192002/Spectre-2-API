@@ -1,0 +1,11 @@
+/* Base CSS File with all Index CSS */
+
+
+/*Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+    background-color: rgb(7, 8, 26);
+    font-family: 'Ubuntu', Courier;
+}

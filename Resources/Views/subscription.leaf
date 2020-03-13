@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/subscription.css">
+    <script src="https://js.stripe.com/v3"></script>
+
+
+
+        <title>Devscorch | Pricing</title>
+
+</head>
+
+<body>
+    #embed("base")
+        <div class="container-fluid">
+            <div class="main-container">
+                <div class="row intro-row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="intro-header">
+                            <div class="intro-header-1">
+                            <h1 class="intro-h1">Affordable pricing for getting access to amazing content.<h1>
+                        </div>
+                        <div class="intro-text">
+                            <div class="intro-paragraph">
+                                <p class="intro-p">For only $ 9.99 a month you get access to all our 
+                                content and our future content. 
+                                With this subscription you can enjoy our monthly course updates, 
+                                new videos and new course related content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <img class="learn-image img-fluid" src="/assets/coin.png">
+                    </div>                
+                </div>
+            </div>
+            <div class="second-container">
+                <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="card border-0" style="width: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title card-h5">FLAME</h5>
+                    <h5 class="card-text-2">The perfect subscription for every beginner!</h5>
+                         <ul class="ul-price"> 
+                            <li><p class="card-text">1080P Content</p></li>
+                            <li><p class="card-text">Access to all standard courses</p></li>
+                            <li><p class="card-text">Course support through Discord</p></li>
+                            <li><p class="card-text">Course updates</p></li>
+                            <li><p class="card-text">Access to all course related downloads</p></li>
+                            <li><p class="card-text">Access to future courses and content </p></li>
+                            <li><p class="card-text">Support with your portfolio</p></li>
+                        </ul>
+                        <h5 class="card-title card-h5">$6,99</h5>
+                        #if(loggedInUser) {
+                        <button class="blaze-button" onclick="location.href='https://payment.devscorch.com'" type="button">Subscribe</button>
+                        } else {
+                        <button class="blaze-button" onclick="location.href='/login'" role="link" type="button">Subscribe</button>
+                        }
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    #embed("footer")
+
+ 
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

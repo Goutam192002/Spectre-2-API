@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+
+
+
+    <title>Devscorch | Home</title>
+
+</head>
+
+<body> 
+    #embed("base")
+    <div class="container-fluid">
+
+        <div class="main-container">
+            <div class="row intro-row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="intro-header w3-animate-left">
+                        <div class="intro-header-1">
+                            <h1 class="intro-h1">Learn how to code and design with Devscorch!<h1>
+                        </div>
+                        <div class="intro-text">
+                            <div class="intro-paragraph">
+                                <p class="intro-p"> New platform with high quality content.</p>
+                            </div>
+                        </div>
+                        <div class="intro-buttons">
+                            <button type="button" class=" sign-button" data-toggle="modal" data-target="#signUpLabel">WHITEPAPER</button>
+                            <button type="button" class=" sign-button-2" data-toggle="modal" data-target="#exampleModalScrollable">FAQ </button>
+                        </div>
+                        <div class="social-buttons">
+                            <h6 class="join-us">Join us on social media</h6>
+                            <button onclick="location.href='https://facebook.com/devscorch'" type="button" class="facebook-button"></button>
+                            <button onclick="location.href='https://instagram.com/devscorch'" type="button" class="instagram-button"></button>
+                            <button onclick="location.href='https://www.youtube.com/user/AFK0MPEG'" type="button" class=" yt-button"></button>
+                            <button onclick="location.href='https://instagram.com/devscorch'" type="button" class="linked-button"></button>
+                        </div>
+                    </div>
+                </div>
+
+    
+
+        
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title-h5" id="exampleModalScrollableTitle">Frequently asked questions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="faq-h6">Why did we create a own platform?</h6>
+                    <p class="faq-p">The reason why we decided to build our own platform is because we want 100% control over
+                    our content, our infrastructure and prices. We believe this is the best way to guarantee quality.</p>
+
+                    <h6 class="faq-h6">What does Devscorch stand for?</h6>
+                    <p class="faq-p">The name Devscorch is inspired by the words development and scorch. Development because we
+                    are all developers and scorch because our code is burning 24/7 </p>
+
+                    <h6 class="faq-h6">Why does Devscorch not support social login? </h6>
+                    <p class="faq-p">We don't support social media login because of privacy reasons. We believe that social networks
+                    don't need to know everything about you.</p>
+
+                    <h6 class="faq-h6">Does Devscorch use third party Analytics or trackers?</h6>
+                    <p class="faq-p">No! Devscorch does not contain any third party trackers, Analytics software or beacons. 
+                    We believe your information is yours only and should stay yours only.</p>
+
+                    <h6 class="faq-h6">What does Devscorch use for analysing user behavior?</h6>
+                    <p class="faq-p">We dont really analyse user behavior on our platform at this time. But we are building our
+                    own analytics system in our backend. This only analyses most watched courses and future course predictions.</p>
+
+                    <h6 class="faq-h6">Why is registering and login a bit slow sometimes?</h6>
+                    <p class="faq-p">This is because of the user encryption. The encryption algorithm we use for encryption
+                    is designed to be slow and strong.</p>
+
+                    <h6 class="faq-h6">What does Devscorch use for user information encryption?</h6>
+                    <p class="faq-p">At Devscorch we use BCrypt. BCrypt is a one way hashing algorithm which is designed to be slow. This
+                    makes decrypting user information in case of a hack almost impossible. Because it would need a lot of processing power to decrypt.</p>
+
+                    <h6 class="faq-h6">Which technologies are used for Devscorch?</h6>
+                    <p class="faq-p">The Devscorch platform us build using: Vapor, Swift, Bootstrap, Javascript, LEAF and
+                    plain HTML and CSS.</p>
+
+                    <h6 class="faq-h6">Where is the Devscorch platform hosted?</h6>
+                    <p class="faq-p">The Devscorch platform is hosted on our own servers which are placed in Data centers in Europe.</p>
+
+                    <h6 class="faq-h6">Why isn't Devscorch using Firebase, AWS, Azure or other cloud providers?</h6>
+                    <p class="faq-p">This has two main reasons actually. First because of privacy reasons. Other companies don't need to
+                    know what we do, what our users do or what we work on. Second reason is because we like coding and setting up our own 
+                    infrastructure.</p>
+
+                    <h6 class="faq-h6">Which payment provider is Devscorch using?</h6>
+                    <p class="faq-p">At Devscorch we use Stripe for handling our payments. Stripe is worlds most used payment provider because
+                    it is secure, fast and really reliable.</p>
+                </div>
+                
+                </div>
+            </div>
+            </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <img class="learn-image img-fluid w3-animate-right" src="/assets/learn.png">
+                </div>    
+            </div>
+        </div>
+        <div class="second-container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="explain-header w3-animate-right">
+                        <h1 class="intro-h1">We've built a platform where everybody can learn.</h1>
+                        <div class="platform-text">
+                        <p>With Devscorch we provide an easy-to-use platform where you can Learn everything you can about Coding and designing Beautiful applications for affordable prices. 
+                        This makes Devscorch the perfect investment in your own education.</p>
+                    </div>
+                    <button onclick="location.href=''" type="button" class="play-button"></button>
+                </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <img class="platform-image img-fluid w3-animate-left" src="/assets/platform.png">
+                </div>
+            </div>
+        </div>
+        <div class="third-container">
+            <div class="row courses-row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="courses-image img-fluid w3-animate-left" src="/assets/courses.png">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="courses-text w3-animate-right">
+                    <div class="courses">
+                        <h3 class="courses-h3">What exactly is Devscorch?</h3>
+                        <div class="platform-text">
+                        <p>Devscorch is a initiative where we provide high quality content for affordable prices.</p>
+                          <p class="courses-p">With Devscorch we want to teach you what other Learning platforms don't teach you. 
+                          This is the way how Devscorch wants to be Different than other learning platforms. 
+                          We want to provide courses which Are exiting and challenging for everyone.</p>
+                        <button  onclick="location.href='/courses'" type="button" class=" courses-button">CHECK OUT OUR COURSES</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="fourth-container second-container ">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="roadmap-text">
+                        <h3 class="team-h3 w3-animate-zoom">OUR ROADMAP</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row image-row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <img class="roadmap-image img-fluid w3-animate-zoom" src="/assets/roadmap.png">
+                </div>
+            </div>        
+        </div>
+        <div class="fifth-container ">
+            <div class="row">
+               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="roadmap-text w3-animate-top">
+                        <h3 class="team-h3">WHO AM I</h3>
+                    </div>
+                </div> 
+            </div>
+                <div class="row team-row">
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <div class="team-member w3-animate-top">
+                            <img class="team-image " src="/assets/placeholder.png">
+                            <p class="team-name">Johan t'Sas</p>
+                            <p class="team-p">CEO and Developer</p>
+                            <div class="team-buttons justify-content-center">
+                            <button  onclick="location.href='https://www.facebook.com/profile.php?id=100008617697219'" type="button" class="team-fb-button"></button>
+                            <button  onclick="location.href='https://www.instagram.com/johantsas/'" type="button" class="team-ig-button"></button>
+                            <button  onclick="location.href='https://www.linkedin.com/in/johan-tsas-b79126115/'" type="button" class="team-li-button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <div class="team-member w3-animate-top">
+                            <img class="team-image " src="/assets/placeholder.png">
+                            <p class="team-name">Goutam B Seervi</p>
+                            <p class="team-p">Frontend Developer</p>
+                            <div class="team-buttons justify-content-center">
+                            <button  onclick="location.href=''" type="button" class="team-fb-button"></button>
+                            <button  onclick="location.href='https://www.instagram.com/goutambseervi/'" type="button" class="team-ig-button"></button>
+                            <button  onclick="location.href='https://www.linkedin.com/in/goutambseervi/'" type="button" class="team-li-button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <div class="team-member w3-animate-top">
+                            <img class="team-image " src="/assets/placeholder.png">
+                            <p class="team-name">Umair Nehri</p>
+                            <p class="team-p">Frontend Developer</p>
+                            <div class="team-buttons justify-content-center">
+                            <button  onclick="location.href=''" type="button" class="team-fb-button"></button>
+                            <button  onclick="location.href='https://www.instagram.com/umairnehri9747/'" type="button" class="team-ig-button"></button>
+                            <button  onclick="location.href='https://www.linkedin.com/in/umair-nehri-49699317a/'" type="button" class="team-li-button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <div class="team-member w3-animate-top">
+                            <img class="team-image " src="/assets/placeholder.png">
+                            <p class="team-name">Azura4K</p>
+                            <p class="team-p">Frontend Developer</p>
+                            <div class="team-buttons justify-content-center">
+                            <button  onclick="location.href=''" type="button" class="team-fb-button"></button>
+                            <button  onclick="location.href=''" type="button" class="team-ig-button"></button>
+                            <button  onclick="location.href=''" type="button" class="team-li-button"></button>
+                            </div>
+                        </div>
+                    </div>
+                   
+            </div>
+        </div>
+</div>
+    #embed("footer")
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

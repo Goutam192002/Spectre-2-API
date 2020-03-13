@@ -1,0 +1,259 @@
+/*Fonts */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+
+
+/* Body */
+
+body {
+    background-color: rgb(7, 8, 26);
+    font-family: 'Ubuntu', Courier;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+/* Main-Container */
+
+.main-container {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 350px;
+
+}
+
+.intro-row {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.freelance-h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.freelance-h4 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* Second Container */
+
+.development-container {
+    max-width: 2000px;
+    min-height: 600px;
+    background-color: rgb(12, 14, 39);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.development-text {
+    max-width: 350px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.development-h2 {
+    color: white;
+    font-weight: bold;
+
+}
+
+.development-p {
+    margin-top: 30px;
+    color: white;
+}
+
+.card {
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    margin-top: 60px;
+    background: rgb(7, 8, 26);
+}
+
+.card-body {
+    background: rgb(7, 8, 26);
+    border: none;
+
+}
+
+.card-h5 {
+    color: rgb(178, 68, 207);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-h5-blaze {
+    color: rgb(178, 68, 207);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-h6 {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+.hour {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.price-h2 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subscription-button {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.ul-price {
+    list-style-image: url("/assets/leaf.png");
+    margin-top: 20px;
+}
+
+.card-text {
+    color: white;
+    font-size: 15px;
+}
+
+.card-text-2 {
+    color: rgb(84, 58, 155);
+    font-size: 13px;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* web-container */
+
+.web-container {
+    max-width: 2000px;
+    max-height: 600px;
+    background-color:  rgb(7, 8, 26);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body-2 {
+    background: rgb(12, 14, 39);
+    border: none;
+}
+
+.api-container {
+    max-width: 2000px;
+    min-height: 600px;
+    background-color: rgb(12, 14, 39);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explain-container {
+    max-width: 2000px;
+    max-height: 600px;
+    background-color:  rgb(7, 8, 26);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email-container {
+    max-width: 2000px;
+    min-height: 600px;
+    background-color: rgb(12, 14, 39);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Typewriter code */
+
+.typewriter h1 {
+    font-family: 'Ubuntu', Courier;
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+
+
+
+  @media (max-width: 770px) {
+    .web-container {
+        max-width: 2000px;
+        min-height: 900px;
+        background-color:  rgb(7, 8, 26);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .development-container {
+        max-width: 2000px;
+        min-height: 1000px;
+        background-color: rgb(12, 14, 39);
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .api-container {
+        max-width: 2000px;
+        min-height: 950px;
+        background-color:  rgb(12, 14, 39);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .explain-container {
+        max-width: 2000px;
+        max-height: 950px;
+        background-color:  rgb(7, 8, 26);
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }

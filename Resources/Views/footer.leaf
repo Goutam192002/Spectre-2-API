@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
+</head>
+    <div class="footer">
+        <div class="row footer-row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="list">
+                    <div class="navbar-nav-2">
+                    <ul>
+                    <a class=" list-link" href="/docs/terms-and-conditions-2020.pdf">Terms of use</a>
+                    <a class=" list-link" href="/docs/privacy-agreement-2020.pdf">Privacy agreement</a>
+                    <a class=" list-link" href="/company">About Devscorch</a>
+                    <a class=" list-link" href="/freelance">Hire a freelancer</a>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-row-2">
+        
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="version">
+                    <h6 class="version-h5">Devscorch 2019</h6>
+                     <p class="version-p">Devscorch version: 1.0.5</p>
+                </div>
+            </div>
+        </div>
+    </div>

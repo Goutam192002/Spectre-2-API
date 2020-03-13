@@ -1,0 +1,120 @@
+/*Fonts */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+body {
+    background-color: rgb(7, 8, 26);
+    font-family: 'Ubuntu', Courier;
+}
+
+.main-container {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 300px;
+
+}
+
+.intro-row {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.intro-header {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.intro-p {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.company-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.second-container {
+    max-width: 2000px;
+    min-height: 600px;
+    background-color: rgb(12, 14, 39);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-h2 {
+    color: white;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;    
+    font-weight: bold;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 850px;
+}
+
+.form-control {
+    background-color: rgb(7, 8, 26);
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+label {
+    margin-left: 25px;
+}
+
+.form-group-2 {
+    background-color: white;
+
+}
+ 
+.form-group {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    color: #543A9B;
+}
+
+.option {
+    color: white;
+}
+
+.company-info {
+    color: white;
+    margin-top: 20px;
+}
+
+.courses-button {
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 40px;
+    background: linear-gradient(0.25turn,#0D3D8D, #2AD8EC);
+    border: none;
+    color: white;
+    
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/company.css">
+
+    <title>Devscorch | #(title)</title>
+</head>
+<body>
+    #embed("base")
+        <div class="container-fluid">
+            <div class="main-container">
+                <div class="row intro-row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="intro-header ">
+                            <h2 class="intro-h1">About Devscorch</h2>
+                            <p class="intro-p">Devscorch is a learning platform where people don't only learn how to code or how to design. 
+                            With this platform I want to teach people how to actually build their own applications 
+                            by providing them with courses based on real world products. And besides the learning platform i also provide
+                            freelance programming. Just check-out my freelance page for more information or my portfolio.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="devscorch-logo">
+                            <img class="company-logo" src="/assets/devscorch-2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-container">
+                <div class="row intro-row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="intro-header">
+                            <h3 class="contact-h2">Contact information</h3>
+                            <p class="company-info">Devscorch<br>
+                            Sluisweg 11 <br>
+                            6097PC<br>
+                            Heel<br>
+                            Netherlands<br>
+                            Phone: +31 27 45 61 93<br>
+                            johan@devscorch.com<br>
+                            </p>
+                        </div>
+                    </div> 
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="intro-header">
+                            <h3 class="contact-h2">Company information</h3>
+                            <p class="company-info">Devscorch<br>
+                            BANK: KNAB<br>
+                            IBAN: NL570400751372 <br>
+                            BIC: KNABNL2H<br>
+                            KVK: 76932141<br>
+                            PP: STRIPE
+                            </p>
+                        </div>
+                        
+                        
+                    </div>   
+                </div>
+                
+            </div>
+        </div>    
+    #embed("footer")
+
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

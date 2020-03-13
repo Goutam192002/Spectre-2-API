@@ -1,0 +1,63 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
+
+</head>
+
+<body>
+   <!-- Navigation -->
+        
+        <nav class="navbar navbar-expand-lg navbar-light dev-nav ">
+            <a class="navbar-brand" href="/"><img src="/assets/devscorch-logo.png"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link #if(title == "Homepage"){active}" href="/">HOME</a>
+                    <a class="nav-item nav-link #if(title == "Courses"){active}" href="/courses">COURSES</a>
+                    <a class="nav-item nav-link #if(title == "Pricing"){active}" href="/subscriptions">PRICING</a>
+                    <a class="nav-item nav-link #if(title == "Downloads"){active}" href="/downloads">DOWNLOADS</a>
+                          
+                            
+                            
+                      #if(userLoggedIn) {
+                        <div class="dropdown">
+                          <a class="nav-item nav-link dropdown-toggle profile-button #if(title == "Profile"){active}" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            #(loggedInUser.username)</a>
+                          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="dropdownMenuLink">
+                            #if(loggedInUser.userImage) {
+                              <img class="profile-img" src="/users/#(loggedInUser.id)/userImage" alt="#(user.username)">
+                              } else {
+                                <img class="profile-img" src="/assets/steve.png" alt="#(user.username)">
+                              }
+                            <div class="drop">
+                            <a class="dropdown-item drop-a #if(title == "Profile"){active}" href="/profile/#(loggedInUser.id)">My Profile</a>
+                            <!--- <a class="dropdown-item drop-a #if(title == "My-profile"){active}"" href="/my-subscription/#(loggedInUser.id)">My Subscription</a> -->
+                            <form class="form-inline" action="/logout" method="POST">
+                              <input class="dropdown-item drop-a-2" type="submit" value="Sign out">
+                            </form>
+                            </div>
+                          </div>
+                } else {
+                <a class="btn btn-secondary whitepaper-button #if(title == "Register"){active}" href="/register">REGISTER</a>
+                <a class="btn btn-secondary login-button #if(title == "Login"){active}" href="/login">LOGIN</a>
+                }
+                 </div>
+            </div>           
+        </nav>
+
+
+
+</body>
+#if(showCookieMessage) {
+
+  <footer id="cookie-footer">
+    <div id="cookieMessage" class="container">
+      <span class="muted">
+        <a href="#" onclick="cookiesConfirmed()">OK</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/scripts/cookies.js"></script>
+}

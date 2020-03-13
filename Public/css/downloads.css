@@ -1,0 +1,96 @@
+/*Fonts */
+
+
+/* Body */
+body {
+    background-color: rgb(7, 8, 26);
+    font-family: 'Ubuntu', Courier;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+/* Main-Container */
+
+.main-container {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.intro-row {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.intro-header {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.intro-p {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.learn-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -30px;
+    height: 284px;
+    width: auto;
+}
+
+/* Second container */
+
+.second-container {
+    max-width: 2000px;
+    min-height: 900px;
+    background-color: rgb(12, 14, 39);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download-error {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.card {
+    width: 17rem;
+    height: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-weight: bold;
+    margin-top: 20px;
+}

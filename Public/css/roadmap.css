@@ -1,0 +1,83 @@
+/*Fonts */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+
+/* Body */
+
+
+/* Containers */
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+/* Main-Container */
+
+.main-container {
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.intro-row {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.intro-header {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.intro-p {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.learn-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -30px;
+}
+
+/* Second container */
+
+.second-container {
+    max-width: 2000px;
+    min-height: 900px;
+    background-color: rgb(12, 14, 39);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.roadmap-image {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: block;
+
+}
+
+@media (max-width: 770px) {
+    .learn-image {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+}
+

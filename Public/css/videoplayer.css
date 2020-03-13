@@ -1,0 +1,115 @@
+/*Fonts */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+
+
+/* Body */
+body {
+    background-color: rgb(7, 8, 26);
+    font-family: 'Ubuntu', Courier;
+}
+
+.main-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    max-width: 2000px;
+    background-color: black;
+}
+
+.second-container {
+    margin-top: 50px;
+}
+
+
+
+
+.video-player-row {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.videoplayer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+
+}
+
+.videoplayer-player {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+
+}
+
+.section-h4 {
+    color: rgb(84, 58, 155);
+    font-weight: bold;
+    text-align: left;
+}
+
+.video-h6 {
+    color: white;
+    display: inline;
+    padding-left: 15px;
+    padding-top: 20px;
+
+}
+
+.video-duration {
+    padding-right: 20px;
+}
+
+
+
+.video-data {
+    color: white;
+}
+
+#playlist li{
+    cursor:pointer;
+}
+
+#playlist li:hover{
+    color:blue;                        
+}
+
+.video-list-item {
+    text-align: left;
+    margin-left: -30px;
+    height: 50px;
+    max-width: 400px;
+    background-color: rgb(12, 14, 39);
+
+    margin-top: 10px;
+}
+
+.video-p {
+    color: white;
+    display: inline;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+#playlist {
+    list-style-type: none;
+}
+
+.finish-section-button {
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 15px;
+    height: 40px;
+    background: linear-gradient(0.25turn,#0D3D8D, #2AD8EC);
+    border: none;
+    color: white;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
