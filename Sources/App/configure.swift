@@ -86,14 +86,7 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     
     config.prefer(LeafRenderer.self, for: ViewRenderer.self)
     
-    // DEVSCORCH: SendGrid
-   // let SENDGRID_API_KEY = "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"
     
-    guard let sendGridAPIKey = Environment.get("sendGridAPIKey") else {
-         fatalError("No API KEY Specified")
-    }
-    let sendGridConfig = SendGridConfig(apiKey: sendGridAPIKey)
-    services.register(sendGridConfig)
     
     
 }
