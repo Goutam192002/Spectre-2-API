@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/subscription.css">
-    <script src="https://js.stripe.com/v3"></script>
 
 
 
@@ -62,7 +61,7 @@
                         </ul>
                         <h5 class="card-title card-h5">$6,99</h5>
                         #if(loggedInUser) {
-                        <button class="blaze-button" onclick="location.href='https://payment.devscorch.com'" type="button">Subscribe</button>
+                        <button class="blaze-button" id="checkout-button" type="button">Subscribe</button>
                         } else {
                         <button class="blaze-button" onclick="location.href='/login'" role="link" type="button">Subscribe</button>
                         }
@@ -79,16 +78,51 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://js.stripe.com/v3"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        (function() {
+    const stripe = Stripe('pk_test_m4J4uoJewDmBl1eXWNLOTZu0');
 
+    const checkoutButton = document.getElementById('checkout-button');
+    checkoutButton.addEventListener('click', function () {
+        // When the customer clicks on the button, redirect
+        // them to Checkout.
+        $.post('http://payment.devscorch.com/create-session', {
+            plan: 'plan_GRoIc7cEZSMP8h',
+            client_reference_id: document.getElementById('userid').innerText,
+        }, async function (data, status) {
+            $.ajax({
+                type: "POST",
+                data: {
+                    stripe_session_id: status.id
+                },
+                dataType: 'json',
+                xhrFields: {
+                   withCredentials: true
+                },
+                crossDomain: true
+            });
+            stripe.redirectToCheckout({
+                items: [{plan: 'plan_GRoIc7cEZSMP8h', quantity: 1}],
+                successUrl: `https://devscorch.com?session_id=${data.id}`,
+                cancelUrl: 'https://devscorch.com',
+                sessionId: status.id
+            }).then(function (result) {
+                if (result.error) {
+                    var displayError = document.getElementById('error-message');
+                    displayError.textContent = result.error.message;
+                }
+            });
+        });
+    });
+})();
+    </script>
 </body>
-
 </html>
