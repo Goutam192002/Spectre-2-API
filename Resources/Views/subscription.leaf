@@ -95,7 +95,7 @@
     checkoutButton.addEventListener('click', function () {
         // When the customer clicks on the button, redirect
         // them to Checkout.
-        $.post('http://payment.devscorch.com/create-session', {
+        $.post('https://payment.devscorch.com/create-session', {
             plan: 'plan_GRoIc7cEZSMP8h',
             client_reference_id: document.getElementById('userid').innerText,
         }, async function (data, status) {
