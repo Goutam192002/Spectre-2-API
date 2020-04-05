@@ -71,6 +71,7 @@
                 </div>
             </div>
         </div>
+        <span id="userid">#(loggedInUser.id)</span>
     #embed("footer")
 
  
